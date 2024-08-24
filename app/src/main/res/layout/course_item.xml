@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/edittext_border"
+    android:backgroundTint="#EFDFD6"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:textAlignment="textEnd">
+
+    <EditText
+        android:id="@+id/etCourseName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:hint="@string/Name"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+
+    <EditText
+        android:id="@+id/etCreditHours"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:hint="@string/credit"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerGrade"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
+

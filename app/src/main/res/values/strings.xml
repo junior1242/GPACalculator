@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GPA_Calculator</string>
+    <string name="WelcomeBanner">Welcome to GPA App</string>
+    <string name="enter">Enter Courses and Grades</string>
+    <string name="course">Add Course</string>
+    <string name="crs">Course</string>
+    <string name="calculate">Calculate GPA</string>
+    <string name="calculate_cgpa">Calculate CGPA</string>
+    <string name="gpa">GPA: </string>
+    <string name="Name">Course Code</string>
+    <string name="cgpa">CGPA: </string>
+    <string name="credit">Credit hours</string>
+    <string name="remove">Remove</string>
+    <string name="creditHour">Total Credit Hours: </string>
+    <string name="current">Current GPA : </string>
+    <string name="creditEarn">Credit Hours Completed:  </string>
+    <string name="Desired">Desired GPA/CGPA: </string>
+    <string name="Future">Future Credit Hours:</string>
+    <string name="required">Required GPA For this: </string>
+    <string name="gpa_cgpa"> Calculate GPA/CGPA</string>"
+    <string name="FuturePlanning">Future GPA Planner</string>
+    <string name="GpaCalculator">GPA Calculator</string>
+    <string name="Result">Result will be Shown here</string>
+    <string name="hello">Hello</string>
+    <string name="todo">TODO</string>
+    <string name="page1">GPA Calculator</string>
+    <string name="planner">Future Planner</string>
+    <string name="course1">Course!</string>
+    <string name="selectGrades">Selected Grades</string>
+    <string name="target">Target Credit Hours</string>
+    <string name="totalCr">Total Credit Hours</string>
+    <string name="total_credit_hours">Total Credit Hours: %1$d</string>
+    <string name="selected_grades">Selected Grades: %1$s</string>
+    <string name="move_down">Move Down</string>
+    <string name="total_gpa">Total GPA: </string>
+    <string name="company">Developed by: Husnain and Shahid</string>
+    <string name="back_button">backButton</string>
+    <string name="app_gpa">GPA Calculator</string>
+    <string name="infoText">
+        This calculator can be used to determine the minimum GPA required in
+        future courses to raise GPA to a desired level or maintain the GPA above a
+        certain level
+    </string>
+    <string name="code">Course Code</string>
+    <string-array name="grades_array">
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+</resources>
+
