@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\anim_fade_in_app_name.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\anim\\fade_in_app_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_calculate.png.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\calculate.png"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\gradient_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\layout_activity_loading.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\layout_futureplanner.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\layout\\futureplanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_edittext_border.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\edittext_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.cgpacalculator.app-debug-31:/layout_activity_history.xml.flat",
+        "source": "com.example.cgpacalculator.app-main-33:/layout/activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\font_joan.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\font\\joan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\font_roboto.ttf.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\font\\roboto.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\font_roboto_medium.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\font\\roboto_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_calculator.jpg.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\calculator.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\anim_fade_in_developer_info.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\anim\\fade_in_developer_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\layout_course_item.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\layout\\course_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\layout_gpacalculator.xml.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\layout\\gpacalculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Junior 1242\\.gradle\\daemon\\8.7\\com.example.cgpacalculator.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    }
+]

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/oneLay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/gradient_background">
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
+            android:paddingTop="40dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/bannerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:fontFamily="sans-serif"
+            android:paddingTop="33dp"
+            android:gravity="center"
+            android:text="@string/page1"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            />
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_below="@id/oneLay"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:fillViewport="true"
+        android:background="@drawable/edittext_border"
+        >
+
+        <LinearLayout
+            android:id="@+id/courseContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvTotalCreditHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/totalCr"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tvSelectedGrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTotalCreditHours"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/selectGrades"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvCalculatedGpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelectedGrades"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/total_gpa"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnAddCourse"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tvCalculatedGpa"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ffc3a0"
+        android:text="@string/course"
+        />
+    <Button
+        android:id="@+id/btnRemoveCourse"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/btnAddCourse"
+        android:layout_alignBaseline="@id/btnAddCourse"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ffc3a0"
+        android:text="@string/remove" />
+
+
+    <Button
+        android:id="@+id/btnCalculateGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddCourse"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#ffc3a0"
+        android:text="@string/calculate" />
+</RelativeLayout>

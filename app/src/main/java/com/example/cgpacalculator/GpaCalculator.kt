@@ -1,10 +1,10 @@
 package com.example.cgpacalculator
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
 
 class GpaCalculator : AppCompatActivity() {
 
@@ -14,14 +14,13 @@ class GpaCalculator : AppCompatActivity() {
     private lateinit var btnCalculateGpa: Button
     private lateinit var tvTotalCreditHours: TextView
     private lateinit var tvSelectedGrades: TextView
-    private lateinit var tvCalculatedGpa:TextView
+    private lateinit var tvCalculatedGpa: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.gpacalculator)
-        val btnBack = findViewById<ImageView>(R.id.btnBack)
 
-                        // Closes the current activity and returns to the previous one
+        val btnBack = findViewById<ImageView>(R.id.btnBack)
         btnBack.setOnClickListener {
             finish()
         }
@@ -40,12 +39,12 @@ class GpaCalculator : AppCompatActivity() {
 
         btnAddCourse.setOnClickListener {
             addCourseView()
-            Toast.makeText(this,"course added",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Course added", Toast.LENGTH_SHORT).show()
         }
 
         btnRemoveCourse.setOnClickListener {
             removeCourseView()
-            Toast.makeText(this,"course remove",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Course removed", Toast.LENGTH_SHORT).show()
         }
 
         btnCalculateGpa.setOnClickListener {
@@ -99,25 +98,39 @@ class GpaCalculator : AppCompatActivity() {
 
         // Round the GPA to 2 decimal places
         val roundedGpa = String.format("%.2f", gpa).toDouble()
-        val roundGrades = String.format("%.2f",totalGradePoints).toDouble()
+        val roundGrades = String.format("%.2f", totalGradePoints).toDouble()
+
         // Update the UI with the rounded GPA
-        tvTotalCreditHours.text = "Total Credit Hours: $totalCreditHours"
+        tvTotalCreditHours.text = "Total Credit Hours: $totalCreditHours\n"
         tvSelectedGrades.text = "Selected Grades: $roundGrades"
         tvCalculatedGpa.text = "Total GPA: $roundedGpa"
+
         Toast.makeText(this, "Calculated GPA: $roundedGpa", Toast.LENGTH_LONG).show()
+
+        // Save the GPA to history
+        saveGpaToHistory(roundedGpa, totalCreditHours, roundGrades)
     }
 
+    private fun saveGpaToHistory(gpa: Double, totalCreditHours: Int, totalGradePoints: Double) {
+        val sharedPreferences = getSharedPreferences("GPA_HISTORY", Context.MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        val existingHistory = sharedPreferences.getString("history", "") ?: ""
+        val newEntry = "GPA: $gpa, Credit Hours: $totalCreditHours\n"
+        val updatedHistory = existingHistory + newEntry
+        editor.putString("history", updatedHistory)
+        editor.apply()
+    }
 
     private fun calculateGradePoint(grade: String): Double {
         return when (grade) {
             "A" -> 4.0
-            "A-"->3.7
-            "B+"->3.3
+            "A-" -> 3.7
+            "B+" -> 3.3
             "B" -> 3.0
-            "B-"->2.7
+            "B-" -> 2.7
             "C+" -> 2.3
-            "C"->2.0
-            "C-"->1.7
+            "C" -> 2.0
+            "C-" -> 1.7
             "D" -> 1.0
             else -> 0.0
         }

@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnGPA = findViewById<Button>(R.id.btnGPA)
         val btnFuture = findViewById<Button>(R.id.btnFuture)
+        val btnHistory = findViewById<Button>(R.id.btnHistory)
         progressBar = findViewById(R.id.loaderBar)
 
         btnGPA.setOnClickListener {
@@ -31,7 +32,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(applicationContext, FuturePlanner::class.java))
             }
         }
-
+        btnHistory.setOnClickListener {
+            startActivity(Intent(applicationContext, HistoryActivity::class.java))
+        }
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
                 showExitDialog()

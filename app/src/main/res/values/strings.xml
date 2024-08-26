@@ -41,7 +41,11 @@
         future courses to raise GPA to a desired level or maintain the GPA above a
         certain level
     </string>
+    <string name="history">GPA History will be displayed here.</string>
     <string name="code">Course Code</string>
+    <string name="view_history">View History</string>
+    <string name="clear">Clear History</string>
+
     <string-array name="grades_array">
         <item>A</item>
         <item>A-</item>
